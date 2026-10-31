@@ -2,7 +2,7 @@ local Players = game:GetService("Players")
 local CoreGui = game:GetService("CoreGui")
 
 local gui = Instance.new("ScreenGui")
-gui.Name = "DestroyerHub"
+gui.Name = "bucetinha hub"
 gui.ResetOnSpawn = false
 gui.Parent = CoreGui
 
@@ -20,7 +20,7 @@ Instance.new("UICorner", frame).CornerRadius =
 local title = Instance.new("TextLabel")
 title.Size = UDim2.new(1, 0, 0, 35)
 title.BackgroundTransparency = 1
-title.Text = "DESTROYER HUB"
+title.Text = "bucetinha hub"
 title.TextColor3 = Color3.fromRGB(255, 255, 255)
 title.TextSize = 18
 title.Parent = frame
